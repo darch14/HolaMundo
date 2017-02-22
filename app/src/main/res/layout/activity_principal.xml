@@ -17,5 +17,34 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="13dp"></LinearLayout>
+        android:layout_marginTop="13dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:gravity="center_horizontal"
+            android:text="@string/titulo"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="18sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/txtNombre" />
+
+        <Button
+            android:text="@string/saludar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cmdBoton"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lblMensaje" />
+    </LinearLayout>
 </RelativeLayout>
