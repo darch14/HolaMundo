@@ -52,10 +52,5 @@
             android:textAppearance="@style/TextAppearance.AppCompat"
             android:onClick="saludar" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/lblMensaje"
-            android:layout_weight="0.03" />
     </LinearLayout>
 </RelativeLayout>
